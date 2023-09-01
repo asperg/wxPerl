@@ -109,7 +109,7 @@ new( ... )
     END_OVERLOAD( "Wx::TimerRunner::new" )
 
 #wxTimerRunner(wxTimer& timer) : m_timer(timer) { }
-    wxTimerRunner(wxTimer& timer, int milli, bool oneShot = false)
+#    wxTimerRunner(wxTimer& timer, int milli, bool oneShot = false)
 
 wxTimerRunner*
 newTimer( CLASS, timer )
