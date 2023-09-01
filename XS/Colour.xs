@@ -118,5 +118,9 @@ wxColour::GetAsString( long flags )
 
 long
 wxColour::GetPixel()
+  CODE:
+    RETVAL = NULL;
+  OUTPUT:
+    RETVAL
 
 #endif
