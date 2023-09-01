@@ -108,7 +108,7 @@ new( ... )
         MATCH_REDISP_COUNT_ALLOWMORE( wxPliOvl_wtim_n_n, newFull, 2 )
     END_OVERLOAD( "Wx::TimerRunner::new" )
 
-wxTimerRunner(wxTimer& timer) : m_timer(timer) { }
+#wxTimerRunner(wxTimer& timer) : m_timer(timer) { }
     wxTimerRunner(wxTimer& timer, int milli, bool oneShot = false)
 
 wxTimerRunner*
